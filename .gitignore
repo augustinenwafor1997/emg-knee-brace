@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Data & models (kept out of version control)
+*.pkl
+*.joblib
+*.fastq
+*.fastq.gz
+*.sas7bdat
+*.accdb
+*.bacpac
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+secrets.toml
